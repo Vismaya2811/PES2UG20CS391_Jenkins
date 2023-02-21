@@ -16,6 +16,7 @@ stages {
     stage('Deploy') {
         steps {
             // deployment code
+            sh 'mvc deploy'
             echo 'deployment successful'
         }
     }
